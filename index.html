@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"> 
+    
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+</head>
+<body>
+  
+  <div class="container">
+    
+    <header class="">
+      
+      <nav>
+        
+         <!--desktop navigation-->
+        <div class="desktopnav">
+          
+           <div class="brand">
+      <img src="images/logo.svg" alt="logo" width="100">
+           </div>
+           
+           <div class="navlinks">
+             <li><a href="#">About</a></li>
+             <li><a href="#">Careers</a></li>
+             <li><a href="#">Events</a></li>
+             <li><a href="#">Products</a></li>
+             <li><a href="#">Support</a></li>
+           </div>
+           
+        </div>
+        
+        <!--mobile navigation-->
+        <div class="mobilenav">
+          
+           <div class="brand">
+      <img src="images/logo.svg" alt="logo" width="100">
+           </div>
+           
+            <div class="navmenu">
+              
+       <div class="hamburgericon" id="hamburgerimage">
+         <img src="images/icon-hamburger.svg" alt="hamburger">
+            </div>
+           
+   <div class="slidingheader" id="slidingheader">
+             
+ <div class="slidingheaderclosebtn" id="slidingheaderclosebtn">
+   <img src="images/logo.svg" alt="logo" width="100">
+ <img class="close-icon" src="images/icon-close.svg" alt="close">
+              </div>
+             
+           <div class="navlinks">
+             
+             <li><a href="#">About</a></li>
+             <li><a href="#">Careers</a></li>
+             <li><a href="#">Events</a></li>
+             <li><a href="#">Products</a></li>
+             <li><a href="#">Support</a></li>
+           </div>
+           
+           </div>
+           
+           </div>
+          
+        </div>
+        
+      </nav>
+      
+    <div class="heading">
+      <h1>Immersive <br> experiences <br> that deliver</h1>
+    </div>
+      
+    </header>
+    
+    <main>
+      
+      <article>
+        
+        <div class="articleimage">
+          <img src="images/mobile/image-interactive.jpg" alt="interactive" width="250">
+        </div>
+        
+        <div class="articlecontent">
+          <h1 class="">The leader in <br> interactive VR</h1>
+<p class="">Founded in 2011, Loopstudios has been producing world-class virtual reality 
+  projects for some of the best companies around the globe. Our award-winning  creations have transformed businesses through digital experiences that bind 
+  to their brand.</p>
+        </div>
+        
+      </article>
+      
+      <section>
+        
+        <div class="introduction">
+          
+          <div class="content">
+            <h1 class="">  Our creations</h1>
+            </div>
+            
+          <div class="link" id="links">
+            <a href="#">See all</a>
+          </div>
+        </div>
+        
+        <div class="images">
+          
+          <div class="imagegrid">
+            
+            <div class="grid grid1">
+              <h1>Deep <br> earth</h1></div>
+            <div class="grid grid2"><h1>Night <br> arcade</h1></div>
+            <div class="grid grid3"><h1>Soccer <br> team VR</h1></div>
+            <div class="grid grid4"><h1>The <br> grid</h1></div>
+            
+          </div>
+          
+          <div class="imagegrid">
+            
+             <div class="grid grid5"><h1>From up <br> above VR</h1></div>
+             <div class="grid grid6"><h1>Pocket <br> borealis</h1></div>
+             <div class="grid grid7"><h1>The <br> curiosity</h1></div>
+             <div class="grid grid8"><h1>Make it <br> fisheye</h1></div>
+            
+          </div>
+          
+        </div>
+        
+        <!--mobile link-->
+          <div class="link" id="link2">
+            <a href="#">See all</a>
+          </div>
+        
+      </section>
+      
+    </main>
+    
+    <footer>
+      
+      <div class="footercontent">
+        
+         <div class="footerlogo">
+           <img src="images/logo.svg" alt="logo" width="100">
+         </div>
+         
+         <div class="quicklinks">
+           <li><a href="#">About</a></li>
+           <li><a href="#">Careers</a></li>
+           <li><a href="#">Events</a></li>
+           <li><a href="#">Products</a></li>
+           <li><a href="#">Support</a></li>
+         </div>
+         
+      </div>
+      
+      <div class="footercontent foot">   
+         <div class="socialicons">
+           <img src="images/icon-facebook.svg" alt="facebook">
+           <img src="images/icon-twitter.svg" alt="twitter">
+           <img src="images/icon-pinterest.svg" alt="pinterest">
+           <img src="images/icon-instagram.svg" alt="instagram">
+         </div>
+         
+           <div class="copywright">
+          <p>© 2021 Loopstudios. All rights reserved.</p>
+         </div>
+         
+         </div>
+      
+    </footer>
+    
+  </div>
+  
+  <script>
+  
+  var hamburger = document.getElementById("hamburgerimage");
+  var slide = document.getElementById("slidingheader");
+  var closeBtb = document.getElementById("slidingheaderclosebtn");
+  
+  hamburger.addEventListener("click", function (){
+    
+    slide.style.right = "0";
+    
+  });
+  
+  closeBtb.addEventListener("click", function(){
+    slide.style.right = "-320px";
+  });
+    
+  </script>
+
+</body>
+</html>

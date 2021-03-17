@@ -10,15 +10,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
+  - [Author](#author)
 
 ### The challenge
 
@@ -48,4 +40,4 @@ Users should be able to:
 
 - Website - [Days Faozziyyah](https://my-portfolio.faozziyyah.vercel.app/)
 - Frontend Mentor - [@faozziyyah](https://www.frontendmentor.io/profile/faozziyyah)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@muslimahdev](https://twitter.com/muslimahdev?s=08)
